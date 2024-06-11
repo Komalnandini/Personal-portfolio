@@ -111,9 +111,9 @@ function showProjects(projects) {
         projectHTML += `
         <div class="box tilt">
           <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project"/>
-      <    div class="content">
+          <div class="content">
             <div class="tag">
-            <h3>${project.name}</h3>
+                <h3>${project.name}</h3>
             </div>
             <div class="desc">
               <p>${project.desc}</p>
@@ -122,8 +122,8 @@ function showProjects(projects) {
                 <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
               </div>
             </div>
-        </div>
-    </div>`
+            </div>
+        </div>`
     });
     projectsContainer.innerHTML = projectHTML;
 
