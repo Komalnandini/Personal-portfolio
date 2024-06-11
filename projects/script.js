@@ -40,9 +40,6 @@ function getProjects() {
 }
 
 
-
-})
-// fetch projects end
 function showProjects(projects) {
     let projectsContainer = document.querySelector(".work .box-container");
     let projectsHTML = "";
@@ -105,10 +102,8 @@ function showProjects(projects) {
 
 getProjects().then(data => {
     showProjects(data);
-
-
-
-
+})
+// fetch projects end
 
 // Start of Tawk.to Live Chat
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
